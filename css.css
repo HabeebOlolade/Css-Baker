@@ -1,0 +1,93 @@
+* {box-sizing: border-box; color: white;
+    margin: 0; padding: 0; 
+}
+img{height: 300px;}
+
+nav {display: flex; justify-content: space-around; align-items: center;
+    background-color: blueviolet; height: 4rem;
+}
+nav h1{font-size: 2rem;}
+nav ul{
+    display: flex;
+    width: 3rem; 
+    align-items: center; 
+    justify-content: space-around;
+    list-style: none; 
+    padding-left: 2rem;
+}
+nav ul li{
+    margin-left: 3rem; 
+    background-color: inherit;
+}
+#one{
+    background-image: url(./img/photo-1679268850211-0b6091a5f791.avif);
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#one h1{font-size: 4rem; 
+    margin-bottom: 2rem;}
+#one p{font-size: 2rem; 
+    margin-bottom: 1.5rem;}
+#one button{ background-color: #ff0026;
+    padding: 0.7rem 1rem; border-radius: 7px;text-align: center;
+
+}
+#two{display:flex; 
+    flex-direction: column;
+    height: 700px;}
+
+#two .upper{display: flex; 
+    height: 400px;}
+
+#two .upper-one {background-color:rgb(40, 7, 40); 
+    text-align: center;
+    padding: 5rem 3rem;
+    line-height: 1.5rem;}
+
+#two .upper img{height: 400px;width: 30rem;}
+
+#two .upper-three{background-color: #ff0026;
+    text-align: center;
+    padding:5rem 3rem;
+    line-height: 1.5rem;}
+
+#two .lower{display: flex; height: 300px;}
+
+#two .lower-one {background-color:rgba(225, 19, 95, 0.778); 
+    text-align: center;
+    padding:4rem 3rem;
+    line-height: 1.5rem;}
+
+#two .lower-two img {height: 300px; width: 35rem;}
+
+#two .lower-three {background-color:rgb(154, 75, 188); 
+        text-align: center;
+        padding:4rem 3rem;
+        line-height: 1.5rem;}
+
+#three .upper {display: flex; width: 100%; 
+    background-color: black; 
+    justify-content:space-around;}
+
+#three .upper-two{
+    width: 50rem;
+    display: flex;
+flex-direction: column;
+ justify-content: center;
+align-items: center; text-align: center; font-size: 1.2rem;}
+
+#three ul{background-color: #f4f4f4; 
+    display: flex; justify-content: space-around;}
+
+#three ul li{list-style: none;
+; 
+font-size: 2rem; 
+text-align: center;}
+
+#three ul li h2 {color:rgb(59, 3, 59)}
+#three ul li p {color:black}
+    
